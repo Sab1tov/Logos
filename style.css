@@ -1,0 +1,107 @@
+body{
+    background-color: #0474bb;
+}
+
+.logos{
+    display: flex;
+}
+
+.trello{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.trello::before{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    content: "";
+    width: 90px;
+    height: 130px;
+    background-color: #0474bb;
+
+    border-radius: 12px;
+}
+
+.trello::after{
+    border-radius: 12px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    content: "";
+    width: 90px;
+    height: 180px;
+    background-color: #0474bb;
+}
+
+
+
+
+.yandex{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    border: 1px solid black;
+    background-color: #ffcb00;
+    overflow: hidden;
+}
+
+.yandex::before{
+    position: absolute;
+    top:50%;
+    left:50%;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.yandex::after{
+    position: absolute;
+    top:50%;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+
+
+
+.beeline{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.beeline::before{
+    position: absolute;
+    top: 20%;
+    content: "";
+    width: 300px;
+    height: 60px; background: rgb(232,252,9);
+    background: radial-gradient(circle, rgba(232,252,9,1) 23%, rgba(238,237,8,1) 43%, rgba(252,202,7,1) 85%);
+
+
+}
+
+.beeline::after{
+    position: absolute;
+    top: 60%;
+    content: "";
+    width: 300px;
+    height: 60px;
+    background: rgb(232,252,9);
+    background: radial-gradient(circle, rgba(232,252,9,1) 23%, rgba(238,237,8,1) 43%, rgba(252,202,7,1) 85%);
+}
